@@ -1,11 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD 131</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WDD 131 – Dynamic Web Fundamentals – Paulo Aguilar</title>
+  <meta name="description" content="WDD 131 – Dynamic Web Fundamentals. Personal page of Paulo Aguilar, a web development student. Topics: HTML, CSS, JavaScript." />
+  <meta name="author" content="Paulo Aguilar" />
+ 
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet" />
+ 
+  <link rel="stylesheet" href="styles/base.css" />
+  <script src="scripts/getdates.js" defer></script>
 </head>
 <body>
-    <h1>WDD 131 COURSE</h1>
+ 
+  <header>
+    <span id="course-title">WDD 131 – Dynamic Web Fundamentals</span>
+    <nav>
+      <ul>
+        <li><a href="https://www.linkedin.com/" target="_blank">LinkedIn</a></li>
+        <li><a href="https://byupw.instructure.com/" target="_blank">Canvas</a></li>
+        <li><a href="https://www.churchofjesuschrist.org/study/scriptures" target="_blank">Scripture</a></li>
+        <li><a href="#">Final Project</a></li>
+      </ul>
+    </nav>
+  </header>
+ 
+  <main>
+    <h1>Paulo Aguilar Veintemilla</h1>
+ 
+    <div class="card-container">
+      <section class="card">
+        <h2>About Me</h2>
+        <img src="images/profile.jpg" alt="Paulo Aguilar Veintemilla" width="200" />
+        <p>My name is Paulo Aguilar Veintemilla. I was born in Perú, Trujillo where I currently live. I am a web development student from Perú, I like to
+            learn new things, coding and go to church . I am a returned missionary from the Perú Cusco Mission.</p>
+      </section>
+ 
+      <section class="card">
+        <h2>My Favorite Place</h2>
+        <img src="images/favorite-place.webp" alt="Trujillo Peru Temple" width="200" />
+        <p>"The Trujillo Temple, dedicated in 2015, is a very meaningful place for me. My father was there the day of its dedication and he could meet Elder Dieter F. Uchdort. From that moment on,
+            we no longer had to go to Lima to enter the temple. That is where I learned to do vicarious work, and where I received my endowment.</p>
+      </section>
+    </div>
+  </main>
+ 
+  <footer>
+    <p>&copy; <span id="currentyear"></span> Paulo Aguilar - Perú</p>
+    <p id="lastModified"></p>
+  </footer>
+ 
 </body>
 </html>
+ 
+
+

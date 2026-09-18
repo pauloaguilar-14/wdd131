@@ -1,0 +1,14 @@
+@media (min-width: 700px) {
+  #menu-toggle {
+    display: none;
+  }
+
+  nav ul {
+    display: flex !important;
+    flex-direction: row;
+  }
+
+  main {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

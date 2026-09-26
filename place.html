@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perú | Descubre el país</title>
+    <meta name="description" content="Página informativa sobre Perú: datos generales y clima de Machu Picchu.">
+    <link rel="stylesheet" href="styles/place.css">
+    <script src="scripts/place.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Perú</h1>
+    </header>
+
+    <main>
+        <div class="hero-container">
+            <picture>
+                <source media="(min-width: 700px)" srcset="place-images/machupicchu-large.webp">
+                <img src="place-images/machupicchu-small.webp" alt="Machu Picchu, Perú" class="hero-image">
+            </picture>
+
+            <section class="data">
+                <h2>Data</h2>
+                <p><span class="label">Área:</span><span class="value">1,285,216 km²</span></p>
+                <p><span class="label">Población:</span><span class="value">34.34 millones</span></p>
+                <p><span class="label">Capital:</span><span class="value">Lima</span></p>
+                <p><span class="label">Idiomas:</span><span class="value">Español, Quechua, Aimara</span></p>
+                <p><span class="label">Moneda:</span><span class="value">Sol (PEN)</span></p>
+                <p><span class="label">Zona horaria:</span><span class="value">UTC-5</span></p>
+                <p><span class="label">Código de llamada:</span><span class="value">+51</span></p>
+                <p><span class="label">Dominio de internet:</span><span class="value">.pe</span></p>
+            </section>
+
+            <section class="weather">
+                <h2>Weather</h2>
+                <img src="place-images/weather-icon.svg" alt="Parcialmente nublado" class="weather-icon-mobile">
+                <p><span class="label">Temperatura:</span><span class="value">9 °C</span></p>
+                <p><span class="label">Condiciones:</span><span class="value">Parcialmente nublado</span></p>
+                <p><span class="label">Viento:</span><span class="value">12 km/h</span></p>
+                <p><span class="label">Sensación térmica:</span><span class="value" id="windchill"></span></p>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="year"></span> Paulo Aguilar Veintemilla &mdash; Perú</p>
+        <p>Última modificación: <span id="lastModified"></span></p>
+    </footer>
+</body>
+</html>
